@@ -1,0 +1,31 @@
+
+#include<iostream>
+using namespace std;
+
+class Arithmatic 
+{
+    private:
+        int No1 , No2;
+        
+    public:
+        Arithmatic(int A, int B)nnhlkhkl
+        {
+            this -> No1 = A;
+            this -> No2 = B;
+        }
+        int Addition()
+        {
+            return No1 + No2;
+        }
+        int Substraction(int A, int B)
+        {
+            return No1 - No2;
+        }
+};
+
+int main()
+{
+
+
+    return 0;
+}

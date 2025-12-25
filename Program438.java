@@ -1,0 +1,26 @@
+class node
+{
+    public int data;
+    public node next;
+}
+class SinglyLL
+{
+    public node first;
+    public int iCount;
+
+    SinglyLL()
+    {
+        System.out.println("Object Of SinglyLL Gets Created :");
+        this.first = null;
+        this.iCount = 0;
+    }
+}
+public class Program438 
+{
+    public static void main(String A[])
+    {
+        SinglyLL obj =null; 
+
+        obj = new SinglyLL();
+    }
+}
